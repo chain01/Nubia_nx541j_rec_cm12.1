@@ -28,7 +28,8 @@ include $(LOCAL_PATH)/board/*.mk
 
 # Kernel
 TARGET_KMODULES := true
-
+# TWRP
+RECOVERY_VARIANT：= twrp
 # Disable memcpy opt (for audio libraries)
 TARGET_CPU_MEMCPY_OPT_DISABLE := true
 
